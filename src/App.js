@@ -1,24 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import MainNavbar from './components/Navbar/MainNavbar';
+import bg from './components/images/food-crop.jpg';
+import MessageBox from './components/Body/MessageBox';
+import Menu from './components/Body/Menu';
+import styles from './App.module.css';
+import { CartContextProvider } from './Context/cart-context';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <CartContextProvider>
+      <MainNavbar className={styles['main-navbar']} />
+      <img src={bg} alt="food" className={styles['background-image']} />
+      <MessageBox />
+      <Menu />
+    </CartContextProvider>
   );
 }
 

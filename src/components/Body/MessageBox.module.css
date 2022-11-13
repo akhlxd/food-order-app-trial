@@ -1,0 +1,22 @@
+.message-box {
+  text-align: center;
+  width: 40%;
+  margin: auto;
+  z-index: 9;
+  color: white;
+  background-color: rgb(47, 47, 47);
+  padding: 20px 40px;
+  position: relative;
+  margin-top: 15rem;
+}
+
+.message-box h2 {
+  margin: 0;
+  font-size: 2rem;
+  margin-bottom: 25px;
+}
+
+.message-box p {
+  margin: 0;
+  margin-bottom: 15px;
+}

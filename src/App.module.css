@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background: black;
 }
 
 .App-logo {
@@ -35,4 +36,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.background-image {
+  position: absolute;
+  width: 100%;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 0% 90%);
+  top: 0;
+  filter: brightness(0.6);
 }

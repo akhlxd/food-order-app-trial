@@ -1,0 +1,28 @@
+.CartContent {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 75%;
+  margin-right: 150px;
+  padding: 0 40px;
+  border: transparent;
+}
+
+.CartContent h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.CartContent * {
+  margin: 0 10px;
+}
+
+.cart-quantity {
+  background: red;
+  padding: 8px 18px;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 18px;
+  margin-left: 20px;
+}

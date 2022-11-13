@@ -1,0 +1,14 @@
+.inc-button {
+  color: rgb(146, 19, 19);
+  background: white;
+  border: 1px solid rgb(146, 19, 19);
+  padding: 0.1rem 0.8rem;
+  margin-left: 0.5rem;
+  font-size: 1rem;
+  font-weight: 800;
+  /* max-height: 1.5rem; */
+}
+
+.inc-button:hover {
+  cursor: pointer;
+}
